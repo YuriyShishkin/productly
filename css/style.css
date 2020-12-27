@@ -4,7 +4,23 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  color: #544837;
+  font-size: 16px;
+  line-height: 26px;
+
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.title {
+  color: #2f281e;
 }
 
 .container {
@@ -36,6 +52,7 @@ body {
   color: #2f281e;
   font-size: 14px;
   line-height: 28px;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -60,4 +77,56 @@ body {
   border-color: transparent;
   background-color: #ff9900;
   color: #fff;
+}
+
+.top__inner {
+  padding: 133px 0 80px;
+  background-image: url('../images/top-bg.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.top__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 30px;
+  max-width: 518px;
+}
+
+.top__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 460px;
+  margin-bottom: 45px;
+}
+
+.top__btn {
+  display: inline-block;
+  background-color: #FF9900;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 41px 14px;
+  margin-right: 30px;
+}
+
+.top__link {
+  display: inline-block;
+  color: #ff9900;
+  font-weight: 600;
+  line-height: 24px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.top__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 17px;
+  height: 19px;
+  background-image: url('../images/play-icon.svg');
 }
