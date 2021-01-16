@@ -378,26 +378,31 @@ button {
   right: auto;
 }
 
-.blog{
+.blog {
   padding: 30px 0 120px;
 }
 
-.blog__title{
+.blog__title {
   font-size: 34px;
   line-height: 51px;
   font-weight: 700;
   margin-bottom: 9px;
 }
-.blog__text{
+
+.blog__text {
   margin-bottom: 55px;
 }
-.slider{
+
+.slider {
   margin: 0 -20px;
 }
-.slider__item{
+
+.slider__item {
   padding: 0 20px;
+  margin-bottom: 45px;
 }
-.slider__item-img{
+
+.slider__item-img {
   width: 348px;
   height: 185px;
   object-fit: cover;
@@ -405,34 +410,40 @@ button {
   border-top-right-radius: 8px;
   margin-bottom: 25px;
 }
-.slider__item-info{
+
+.slider__item-info {
   margin-bottom: 12px;
   line-height: 28px;
 }
-.slider__item-author{
+
+.slider__item-author {
   text-decoration: none;
   font-weight: 700;
   color: #544837;
 }
-.slider__item-title{
+
+.slider__item-title {
   text-decoration: none;
   font-size: 24px;
   line-height: 34px;
   font-weight: 700;
   transition: all .3s;
   display: inline-block;
-  margin-bottom: 84px;
+  /* margin-bottom: 84px;*/
   max-width: 294px;
 }
-.slider__item-title:hover{
+
+.slider__item-title:hover {
   color: #ff9900;
 }
-.slick-dots{
+
+.slick-dots {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
-.slick-dots button{
+
+.slick-dots button {
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -443,6 +454,66 @@ button {
   padding: 0;
   margin: 0 5px;
 }
-.slick-dots .slick-active button{
+
+.slick-dots .slick-active button {
   background-color: #ff9900;
+}
+
+.footer__inner {
+  padding: 105px 0 100px;
+  border-top: 1px solid rgba(188, 208, 229, 0.496913);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__menu {
+  width: 135px;
+}
+
+.footer__menu-title,
+.footer__form-text {
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f281e;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__menu-link {
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
+  text-decoration: none;
+}
+
+.footer__form {
+  width: 330px;
+}
+
+.footer__form-input {
+  height: 48px;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+  margin-bottom: 21px;
+  display: inline-block;
+}
+
+.footer__form-input::placeholder {
+  color: #BCD0E5;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer__form-btn {
+  background-color: #ff9900;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 15px 7px;
+  font-weight: 700;
+  border: none;
 }
