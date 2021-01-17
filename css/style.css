@@ -3,16 +3,15 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #544837;
   font-size: 16px;
   line-height: 26px;
-
 }
 
 button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -65,10 +64,10 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #173A56;
+  color: #173a56;
   text-decoration: none;
   padding: 11px 23px;
-  border: 1px solid #BCD0E5;
+  border: 1px solid #bcd0e5;
   border-radius: 4px;
 }
 
@@ -81,7 +80,7 @@ button {
 
 .top__inner {
   padding: 133px 0 80px;
-  background-image: url('../images/top-bg.svg');
+  background-image: url("../images/top-bg.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -104,7 +103,7 @@ button {
 
 .top__btn {
   display: inline-block;
-  background-color: #FF9900;
+  background-color: #ff9900;
   border: none;
   border-radius: 4px;
   color: #fff;
@@ -128,7 +127,7 @@ button {
   top: 2px;
   width: 17px;
   height: 19px;
-  background-image: url('../images/play-icon.svg');
+  background-image: url("../images/play-icon.svg");
 }
 
 .tools {
@@ -341,7 +340,6 @@ button {
   left: 62px;
 }
 
-
 .team__item-text--right::after,
 .team__item-text--right::before,
 .team__item-text--left::after,
@@ -427,7 +425,7 @@ button {
   font-size: 24px;
   line-height: 34px;
   font-weight: 700;
-  transition: all .3s;
+  transition: all 0.3s;
   display: inline-block;
   /* margin-bottom: 84px;*/
   max-width: 294px;
@@ -497,14 +495,14 @@ button {
   height: 48px;
   width: 100%;
   padding: 0 15px;
-  border: 1px solid #BCD0E5;
+  border: 1px solid #bcd0e5;
   border-radius: 4px;
   margin-bottom: 21px;
   display: inline-block;
 }
 
 .footer__form-input::placeholder {
-  color: #BCD0E5;
+  color: #bcd0e5;
   font-size: 16px;
   line-height: 28px;
 }
@@ -516,4 +514,38 @@ button {
   padding: 8px 15px 7px;
   font-weight: 700;
   border: none;
+}
+
+.menu__btn {
+  width: 40px;
+  height: 30px;
+  display: none;
+}
+
+.menu__btn span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+
+.menu__btn::after,
+.menu__btn::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #000;
+  left: 0;
+}
+
+.menu__btn::before {
+  top: 0;
+}
+
+.menu__btn::after {
+  bottom: 0;
 }
